@@ -277,7 +277,7 @@ ORDER BY total_spent DESC;
 ## Step6: Result Analysis
 
 ### Descriptive Analysis
-- Sales Trends: here the monthly sales show variability with January at 3,500,000M RWF, February at 3,300,000 RWF and March at 2,550,000 RWF
+- Sales Trends: here the monthly sales show variability with January at 3,500,000 RWF, February at 3,300,000 RWF and March at 2,550,000 RWF
 - Regional Performance: here Kigali contributes the highest revenue and is followed by Northern and Southern
 - Product Performance: the high value items like MacBook Air and Dell Laptop generate significant revenue despite lower volume
 - Customer Segmentation: here the top quartile customers (Platinum) contribute disproportionately to total revenue
