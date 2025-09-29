@@ -25,10 +25,11 @@ personalized marketing campaigns to increase revenue by 15% in the next quarter
 ## Step2: Step 2: Success Criteria
  Define exactly 5 measurable goals:
  1. Top 5 products per region/quarter → RANK()
- 2. Running monthly sales totals → SUM() OVER()
- 3. Month-over-month growth → LAG()/LEAD()
- 4. Customer quartiles → NTILE(4)
- 5. 3-month moving averages → AVG() OVER()
+    
+ 3. Running monthly sales totals → SUM() OVER()
+ 4. Month-over-month growth → LAG()/LEAD()
+ 5. Customer quartiles → NTILE(4)
+ 6. 3-month moving averages → AVG() OVER()
 
 ## Step3: Database Schema
 Here is the 3 tables that are created
@@ -197,8 +198,46 @@ ORDER BY total_spent DESC;
 
 ## Step6: Result Analysis
 
-### 
+### Descriptive Analysis
+- Sales Trends: here the monthly sales show variability with January at 3,500,000M RWF, February at 3,300,000 RWF and March at 2,550,000 RWF
+- Regional Performance: here Kigali contributes the highest revenue and is followed by Northern and Southern
+- Product Performance: the high value items like MacBook Air and Dell Laptop generate significant revenue despite lower volume
+- Customer Segmentation: here the top quartile customers (Platinum) contribute disproportionately to total revenue
 
+---
+
+### Diagonistic Analysis
+- Sales dip in March might be due to post holiday spending reduction
+- Premium products drive revenue but have lower transaction frequency
+- Kigali's higher performance likely due to higher population density and purchasing power
+- 20% of customers (Platinum segment) generate approximately 60% of total revenue
+
+---
+
+### Prescriptive Analysis
+- Increase stock of high-performing products in Kigali region
+- Develop targeted campaigns for Platinum and Gold customer segments with premium product recommendations
+- Implement cross-selling strategies for accessory products with primary purchases
+- Investigate opportunities to boost sales in Eastern region through localized marketing
+- Create loyalty programs for top spending customers to maintain revenue streams
+
+---
+
+## Step7: References
+1.Oracle Database SQL Language Reference - Window Functions
+2.Oracle Database Data Warehousing Guide - Analytical SQL
+3."SQL Performance Tuning" by Peter Gulutzan
+4."Advanced SQL Programming" by Joe Celko
+5.Oracle Base - Window Functions Articles
+6.Oracle Documentation - Analytic Functions
+7."Database System Concepts" by Silberschatz, Korth, Sudarshan
+8.IEEE Papers on SQL Optimization Techniques
+9.Oracle Technical White Papers
+10.ACM Digital Library - SQL Best Practices
+
+---
+
+#END
 
 
 
