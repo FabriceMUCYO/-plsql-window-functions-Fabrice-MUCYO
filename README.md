@@ -1,8 +1,8 @@
-# PL/SQL Assignment
+# PL/SQL Window Functions Assignment
 
-  ### Name: MUCYO Fabrice
-  ### ID: 27823
-  ### Course: Database Development with PL/SQL
+  #### Name: MUCYO Fabrice
+  #### ID: 27823
+  #### Course: Database Development with PL/SQL
 
 
 ---
@@ -32,15 +32,22 @@ personalized marketing campaigns to increase revenue by 15% in the next quarter
 
 ## Step3: Database Schema
 Here is the 3 tables that are created
-### Customer
+### CUSTOMER
 ![Customer](https://github.com/FabriceMUCYO/-plsql-window-functions-Fabrice-MUCYO/blob/main/Oracle%20Screenshots/Create%20Table%20customers.png)
 ![Table](https://github.com/FabriceMUCYO/-plsql-window-functions-Fabrice-MUCYO/blob/main/Oracle%20Screenshots/customer%20data.png)
 
 ---
 
-### Product
+### PRODUCT
 ![Product](https://github.com/FabriceMUCYO/-plsql-window-functions-Fabrice-MUCYO/blob/main/Oracle%20Screenshots/Create%20Table%20product.png)
 ![Table](https://github.com/FabriceMUCYO/-plsql-window-functions-Fabrice-MUCYO/blob/main/Oracle%20Screenshots/product%20data.png)
 
-### Transaction
+---
+
+### TRANSACTION
 ![Transaction](https://github.com/FabriceMUCYO/-plsql-window-functions-Fabrice-MUCYO/blob/main/Oracle%20Screenshots/Create%20Table%20Transaction.png)
+![Table](https://github.com/FabriceMUCYO/-plsql-window-functions-Fabrice-MUCYO/blob/main/Oracle%20Screenshots/transaction%20data.png)
+
+---
+
+
