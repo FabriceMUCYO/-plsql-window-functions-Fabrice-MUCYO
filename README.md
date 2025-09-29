@@ -76,6 +76,11 @@ JOIN transactions t ON c.customer_id = t.customer_id
 GROUP BY c.region, c.name
 ORDER BY c.region, total_revenue DESC;
 ```
+<p float='left'>
+  <img src="https://github.com/FabriceMUCYO/-plsql-window-functions-Fabrice-MUCYO/blob/main/Oracle%20Screenshots/Rank%20insert.png" width=500>
+  <img src="https://github.com/FabriceMUCYO/-plsql-window-functions-Fabrice-MUCYO/blob/main/Oracle%20Screenshots/rank%20table.png" width=500>
+</p>
+
 ---
 
  ## 2. AGGREGATE
@@ -109,6 +114,9 @@ FROM transactions
 GROUP BY TO_CHAR(sale_date, 'YYYY-MM')
 ORDER BY sale_month;
 ```
+<p float='left'>
+  <img src="
+</p>
 ---
 
  ## 3. NAVIGATION
