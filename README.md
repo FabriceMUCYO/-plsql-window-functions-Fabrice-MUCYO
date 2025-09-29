@@ -51,3 +51,8 @@ Here is the 3 tables that are created
 ---
 
 
+### ER Diagram
+Here is the ER Diagram from the above table created 
+![ER Diagram](https://github.com/FabriceMUCYO/-plsql-window-functions-Fabrice-MUCYO/blob/main/Oracle%20Screenshots/ER%20Diagram.png)
+
+
