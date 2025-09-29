@@ -1,4 +1,4 @@
--- (1) Ranking function: Top customers by total revenue per region
+-- (1) RANKING FUNCTION: Top customers by total revenue per region
 SELECT 
     c.region,
     c.name AS customer_name,
@@ -13,7 +13,7 @@ GROUP BY c.region, c.name
 ORDER BY c.region, total_revenue DESC;
 
 
--- (2) Aggregate Function: Running monthly sales totals
+-- (2) AGGREGATE FUNCTION: Running monthly sales totals
 SELECT 
     TO_CHAR(sale_date, 'YYYY-MM') AS sale_month,
     SUM(amount) AS monthly_sales,
@@ -41,7 +41,7 @@ FROM transactions
 GROUP BY TO_CHAR(sale_date, 'YYYY-MM')
 ORDER BY sale_month;
 
--- (3) Navigation Function: Month-over-month growth
+-- (3) NAVIGATION FUNCTION: Month-over-month growth
 WITH monthly_sales AS (
     SELECT 
         TO_CHAR(sale_date, 'YYYY-MM') AS sale_month,
@@ -77,7 +77,7 @@ FROM monthly_sales
 ORDER BY sale_month;
 
 
--- (4) Distribution Function: Customer segmentation
+-- (4) DISTRIBUTION FUNCTION: Customer segmentation
 SELECT 
     c.customer_id,
     c.name AS customer_name,
@@ -95,5 +95,6 @@ FROM customers c
 JOIN transactions t ON c.customer_id = t.customer_id
 GROUP BY c.customer_id, c.name, c.region
 ORDER BY total_spent DESC;
+
 
 
