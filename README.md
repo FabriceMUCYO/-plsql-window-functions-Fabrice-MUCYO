@@ -40,6 +40,7 @@ Here is the 3 tables that are created
 
 ### Product
 ![Product](https://github.com/FabriceMUCYO/-plsql-window-functions-Fabrice-MUCYO/blob/main/Oracle%20Screenshots/Create%20Table%20product.png)
+![Table](https://github.com/FabriceMUCYO/-plsql-window-functions-Fabrice-MUCYO/blob/main/Oracle%20Screenshots/product%20data.png)
 
 ### Transaction
 ![Transaction](https://github.com/FabriceMUCYO/-plsql-window-functions-Fabrice-MUCYO/blob/main/Oracle%20Screenshots/Create%20Table%20Transaction.png)
