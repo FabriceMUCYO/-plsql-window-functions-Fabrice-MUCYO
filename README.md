@@ -36,4 +36,7 @@ Here is the 3 tables that are created
 ![Customer](https://github.com/FabriceMUCYO/-plsql-window-functions-Fabrice-MUCYO/blob/main/Oracle%20Screenshots/Create%20Table%20customers.png)
 
 ### Product
-![Product]()
+![Product](https://github.com/FabriceMUCYO/-plsql-window-functions-Fabrice-MUCYO/blob/main/Oracle%20Screenshots/Create%20Table%20product.png)
+
+### Transaction
+![Transaction]()
