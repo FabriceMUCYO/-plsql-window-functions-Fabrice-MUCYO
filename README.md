@@ -313,6 +313,7 @@ ORDER BY total_spent DESC;
 9.Oracle Technical White Papers
 10.ACM Digital Library - SQL Best Practices
 
+
 ---
 
 #END
