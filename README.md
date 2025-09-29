@@ -33,4 +33,5 @@ personalized marketing campaigns to increase revenue by 15% in the next quarter
 ## Step3: Database Schema
 Here is the 3 tables that are created
 ### Customer
-!
+**Customer**
+![Customer]()
