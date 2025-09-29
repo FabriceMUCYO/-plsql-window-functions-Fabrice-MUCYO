@@ -32,26 +32,26 @@ personalized marketing campaigns to increase revenue by 15% in the next quarter
 
 ## Step3: Database Schema
 Here is the 3 tables that are created
-### -CUSTOMER
+### - CUSTOMER
 <img src="https://github.com/FabriceMUCYO/-plsql-window-functions-Fabrice-MUCYO/blob/main/Oracle%20Screenshots/Create%20Table%20customers.png" width=800>
 <img src="https://github.com/FabriceMUCYO/-plsql-window-functions-Fabrice-MUCYO/blob/main/Oracle%20Screenshots/customer%20data.png" width=500>
 
 ---
 
-### -PRODUCT
+### - PRODUCT
 <img src="https://github.com/FabriceMUCYO/-plsql-window-functions-Fabrice-MUCYO/blob/main/Oracle%20Screenshots/Create%20Table%20product.png" width=800>
 <img src="https://github.com/FabriceMUCYO/-plsql-window-functions-Fabrice-MUCYO/blob/main/Oracle%20Screenshots/product%20data.png" width=500>
 
 ---
 
-### -TRANSACTION
+### - TRANSACTION
 <img src="https://github.com/FabriceMUCYO/-plsql-window-functions-Fabrice-MUCYO/blob/main/Oracle%20Screenshots/Create%20Table%20Transaction.png" width=800>
 <img src="https://github.com/FabriceMUCYO/-plsql-window-functions-Fabrice-MUCYO/blob/main/Oracle%20Screenshots/transaction%20data.png" width=500>
 
 ---
 
 
-### -ER Diagram
+### - ER Diagram
 Here is the ER Diagram from the above table created 
 
 <img src="https://github.com/FabriceMUCYO/-plsql-window-functions-Fabrice-MUCYO/blob/main/Oracle%20Screenshots/ER%20Diagram.png" width=700>
@@ -188,7 +188,16 @@ JOIN transactions t ON c.customer_id = t.customer_id
 GROUP BY c.customer_id, c.name, c.region
 ORDER BY total_spent DESC;
 ```
+<p float='left'>
+  <img src="https://github.com/FabriceMUCYO/-plsql-window-functions-Fabrice-MUCYO/blob/main/Oracle%20Screenshots/Distribution%20insert.png" width=500>
+  <img src="https://github.com/FabriceMUCYO/-plsql-window-functions-Fabrice-MUCYO/blob/main/Oracle%20Screenshots/Distribution%20table.png" width=500>
+</p>
+
 ---
+
+## Step6: Result Analysis
+
+### 
 
 
 
