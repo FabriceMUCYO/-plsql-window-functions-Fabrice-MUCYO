@@ -46,7 +46,7 @@ Here is the 3 tables that are created
 
 ### - TRANSACTION
 <img src="https://github.com/FabriceMUCYO/-plsql-window-functions-Fabrice-MUCYO/blob/main/Oracle%20Screenshots/Create%20Table%20Transaction.png" width=800>
-<img src="https://github.com/FabriceMUCYO/-plsql-window-functions-Fabrice-MUCYO/blob/main/Oracle%20Screenshots/transaction%20data.png" width=500>
+<img src="https://github.com/FabriceMUCYO/-plsql-window-functions-Fabrice-MUCYO/blob/main/Oracle%20Screenshots/transaction%20table.png" width=500>
 
 ---
 
