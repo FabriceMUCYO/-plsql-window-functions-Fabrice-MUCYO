@@ -115,6 +115,8 @@ GROUP BY TO_CHAR(sale_date, 'YYYY-MM')
 ORDER BY sale_month;
 ```
 <p float='left'>
+  <img src="https://github.com/FabriceMUCYO/-plsql-window-functions-Fabrice-MUCYO/blob/main/Oracle%20Screenshots/Aggregate%20insert.png" width=500>
+  <img src="https://github.com/FabriceMUCYO/-plsql-window-functions-Fabrice-MUCYO/blob/main/Oracle%20Screenshots/Aggregate%20insert%202.png" width=500>
   <img src="
 </p>
 ---
