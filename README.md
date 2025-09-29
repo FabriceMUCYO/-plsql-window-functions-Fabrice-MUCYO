@@ -32,27 +32,41 @@ personalized marketing campaigns to increase revenue by 15% in the next quarter
 
 ## Step3: Database Schema
 Here is the 3 tables that are created
-### CUSTOMER
-![Customer](https://github.com/FabriceMUCYO/-plsql-window-functions-Fabrice-MUCYO/blob/main/Oracle%20Screenshots/Create%20Table%20customers.png)
-![Table](https://github.com/FabriceMUCYO/-plsql-window-functions-Fabrice-MUCYO/blob/main/Oracle%20Screenshots/customer%20data.png)
+### -CUSTOMER
+<img src="https://github.com/FabriceMUCYO/-plsql-window-functions-Fabrice-MUCYO/blob/main/Oracle%20Screenshots/Create%20Table%20customers.png" width=800>
+<img src="https://github.com/FabriceMUCYO/-plsql-window-functions-Fabrice-MUCYO/blob/main/Oracle%20Screenshots/customer%20data.png" width=500>
 
 ---
 
-### PRODUCT
-![Product](https://github.com/FabriceMUCYO/-plsql-window-functions-Fabrice-MUCYO/blob/main/Oracle%20Screenshots/Create%20Table%20product.png)
-![Table](https://github.com/FabriceMUCYO/-plsql-window-functions-Fabrice-MUCYO/blob/main/Oracle%20Screenshots/product%20data.png)
+### -PRODUCT
+<img src="https://github.com/FabriceMUCYO/-plsql-window-functions-Fabrice-MUCYO/blob/main/Oracle%20Screenshots/Create%20Table%20product.png" width=800>
+<img src="https://github.com/FabriceMUCYO/-plsql-window-functions-Fabrice-MUCYO/blob/main/Oracle%20Screenshots/product%20data.png" width=500>
 
 ---
 
-### TRANSACTION
-![Transaction](https://github.com/FabriceMUCYO/-plsql-window-functions-Fabrice-MUCYO/blob/main/Oracle%20Screenshots/Create%20Table%20Transaction.png)
-![Table](https://github.com/FabriceMUCYO/-plsql-window-functions-Fabrice-MUCYO/blob/main/Oracle%20Screenshots/transaction%20data.png)
+### -TRANSACTION
+<img src="https://github.com/FabriceMUCYO/-plsql-window-functions-Fabrice-MUCYO/blob/main/Oracle%20Screenshots/Create%20Table%20Transaction.png" width=800>
+<img src="https://github.com/FabriceMUCYO/-plsql-window-functions-Fabrice-MUCYO/blob/main/Oracle%20Screenshots/transaction%20data.png" width=500>
 
 ---
 
 
-### ER Diagram
+### -ER Diagram
 Here is the ER Diagram from the above table created 
-![ER Diagram](https://github.com/FabriceMUCYO/-plsql-window-functions-Fabrice-MUCYO/blob/main/Oracle%20Screenshots/ER%20Diagram.png)
+
+<img src="https://github.com/FabriceMUCYO/-plsql-window-functions-Fabrice-MUCYO/blob/main/Oracle%20Screenshots/ER%20Diagram.png" width=700>
+
+---
+
+## Step4: Window Function Implementation
+ 1. Ranking: ROW_NUMBER(), RANK(), DENSE_RANK(), PERCENT_RANK() Use case: Top N customers by
+ revenue
+ ```sql
+ 
+ 2. Aggregate: SUM(), AVG(), MIN(), MAX() with frame comparisons (ROWS vs RANGE) Use case: Running
+ totals & trends
+ 3. Navigation: LAG(), LEAD(), growth % calculations Use case: Period-to-period analysis
+ 4. Distribution: NTILE(4), CUME_DIST() Use case: Customer segmentatio
+
 
 
