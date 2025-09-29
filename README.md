@@ -117,8 +117,8 @@ ORDER BY sale_month;
 <p float='left'>
   <img src="https://github.com/FabriceMUCYO/-plsql-window-functions-Fabrice-MUCYO/blob/main/Oracle%20Screenshots/Aggregate%20insert.png" width=500>
   <img src="https://github.com/FabriceMUCYO/-plsql-window-functions-Fabrice-MUCYO/blob/main/Oracle%20Screenshots/Aggregate%20insert%202.png" width=500>
-  <img src="
 </p>
+
 ---
 
  ## 3. NAVIGATION
@@ -159,6 +159,11 @@ SELECT
 FROM monthly_sales
 ORDER BY sale_month;
 ```
+<p>
+  <img src="https://github.com/FabriceMUCYO/-plsql-window-functions-Fabrice-MUCYO/blob/main/Oracle%20Screenshots/Navigation%20insert.png" width=500>
+  <img src="https://github.com/FabriceMUCYO/-plsql-window-functions-Fabrice-MUCYO/blob/main/Oracle%20Screenshots/NAvigation%20table%20(2).png" width=500>
+</p>
+
 ---
 
  ## 4. DISTRIBUTION
