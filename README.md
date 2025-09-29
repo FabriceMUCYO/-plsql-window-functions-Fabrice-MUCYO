@@ -34,6 +34,9 @@ personalized marketing campaigns to increase revenue by 15% in the next quarter
 Here is the 3 tables that are created
 ### Customer
 ![Customer](https://github.com/FabriceMUCYO/-plsql-window-functions-Fabrice-MUCYO/blob/main/Oracle%20Screenshots/Create%20Table%20customers.png)
+![Table](https://github.com/FabriceMUCYO/-plsql-window-functions-Fabrice-MUCYO/blob/main/Oracle%20Screenshots/customer%20data.png)
+
+---
 
 ### Product
 ![Product](https://github.com/FabriceMUCYO/-plsql-window-functions-Fabrice-MUCYO/blob/main/Oracle%20Screenshots/Create%20Table%20product.png)
