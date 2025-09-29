@@ -25,26 +25,12 @@ personalized marketing campaigns to increase revenue by 15% in the next quarter
 ## Step2: Step 2: Success Criteria
  Define exactly 5 measurable goals:
  1. Top 5 products per region/quarter → RANK()
-    ```sql
-    WITH regional_products AS (
-       SELECT 
-          c.region,
-          p.name AS product_name,
-          SUM(t.amount) AS regional_revenue,
-          RANK() OVER (PARTITION BY c.region ORDER BY SUM(t.amount) DESC) AS region_rank
-       FROM transactions t
-       JOIN customers c ON t.customer_id = c.customer_id
-       JOIN products p ON t.product_id = p.product_id
-       GROUP BY c.region, p.name
-    )
-    SELECT region, product_name, regional_revenue, region_rank
-    FROM regional_products
-    WHERE region_rank <= 5
-    ORDER BY region, region_rank;
+ 2. Running monthly sales totals → SUM() OVER()
+ 3. Month-over-month growth → LAG()/LEAD()
+ 4. Customer quartiles → NTILE(4)
+ 5. 3-month moving averages → AVG() OVER()
 
-
-
- 3. Running monthly sales totals → SUM() OVER()
- 4. Month-over-month growth → LAG()/LEAD()
- 5. Customer quartiles → NTILE(4)
- 6. 3-month moving averages → AVG() OVER()
+## Step3: Database Schema
+Here is the 3 tables that are created
+### Customer
+!
